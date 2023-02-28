@@ -10,13 +10,18 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 ### HTML
 <p align="justify">
 
-- tags estruurais:
+- tags estruturais:
 
-<!DOCTYPE html>
-// informa qual a versão do HTML que estou usando
+- `<!DOCTYPE html>`
+```js
+informa qual a versão do HTML que estou usando
+```
+ - `<head></head>`
+```js
+define o cabeçalho de um documento HTML, que traz informações sobre o documento que está sendo aberto. Além de informar ao navegador quais informações quero passar.
+```
 
-<head></head>
-/* define o cabeçalho de um documento HTML, que traz informações sobre o documento que está sendo aberto. Além de informar ao navegador quais informações quero passar. */
-
-<meta></meta>
-// define propriedades da página, como codificação de caracteres, descrição da página, autor etc. 
+- `<meta></meta>`
+```js
+define propriedades da página, como codificação de caracteres, descrição da página, autor etc. 
+```
