@@ -117,8 +117,56 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 
 - `<input></input>`
 ```js
-// Informa qual informação será enviada pelo meu formulário; precisa de um type e um id.
+/* Informa qual informação será enviada pelo meu formulário; precisa de um type e um id. 
+Existem diversos tipos de inputs: 
+type="submit" | type="tel" | type="text" | type="email" | type="radio"
+Cada um deles significa: campo de tipo submissão; campo de tipo telefone; campo de tipo texto; campo de tipo email; campo de tipo radio(círculo clicável)
+*/
 ```
+
+- `<textarea></textarea>`
+```js
+/* Para textos além de uma linha. Para tanto é necessário informar o número de colunas e linhas que esse campo deve ter: 
+exemplo: <textarea> cols="70" rows="10" </textarea> */
+```
+
+- `<fieldset></fieldset> | <legend></legend>`
+```js
+/* Caixa de texto selecionável. Dentro de um form, os dados de um mesmo conjunto agrupados vão dentro de um <fieldset></fieldset>, e dentro de um fieldset não temos parágrafos, temos o <legend></legend>.
+Exemplos:  
+<fieldset>
+<legend>Como prefere o nosso contato?</legend>
+</fieldset>               
+*/
+```
+
+- `<select></select> | <option></option>`
+```js
+/* Dentro de um fieldset, existe a possibilidade de criar uma caixa seletora, com opções. Para isso servem o select e o option. 
+Exemplo:
+<select>
+ <option>Manhã</option>
+ <option>Tarde</option>
+ <option>Noite</option>
+</select>
+
+*/
+```
+
+- `<table></table> | <thead></thead> | <tbody></tbody> |<th></th> |<tr></tr> | <td></td> `
+```js
+/* 
+Table → serve para criar tabelas;  
+thead → é o cabeçalho da tabela;
+th → representa a célula do cabeçalho da tabela;
+tbody → representa o corpo da tabela;
+tr → é a linha da tabela;
+td → representa a célula da tabela;
+tfoot → representa o rodapé da tabela. 
+
+*/
+```
+
 
 - `<footer></footer>`
 ```js
@@ -126,4 +174,5 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 ```
 
 
+               
 
