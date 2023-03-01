@@ -20,22 +20,22 @@ Informa qual a versão do HTML que estou usando.
 
  - `<head></head>`
 ```js
-Define o cabeçalho de um documento HTML, que traz informações sobre o documento que está sendo aberto. Além de informar ao navegador quais informações quero passar.
+// Define o cabeçalho de um documento HTML, que traz informações sobre o documento que está sendo aberto. Além de informar ao navegador quais informações quero passar.
 ```
 
 - `<meta>`
 ```js
-Define propriedades da página, como codificação de caracteres, descrição da página, autor etc. 
+// Define propriedades da página, como codificação de caracteres, descrição da página, autor etc. 
 ```
 
 - `<title></title>`
 ```js
-Informa/define o título na aba do meu navegador.
+// Informa/define o título na aba do meu navegador.
 ```
 
-- `<link> | rel | href |`
+- `<link rel="" href="">`
 ```js
-link: Define ligações da página com outros arquivos.
-rel: relacionamento.
-href: arquivo de referência ou arquivo para qual será o direcionamento assim que clicar na página
+// link: Define ligações da página com outros arquivos.
+// rel: relacionamento.
+// href: arquivo de referência ou arquivo para qual será o direcionamento assim que clicar na página
 ```
