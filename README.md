@@ -85,7 +85,6 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 
 #### Outras TAGS:
 
-
 - `<main></main>`
 ```js
 // A parte principal do meu conteúdo. 
@@ -120,10 +119,6 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 ```js
 // Informa qual informação será enviada pelo meu formulário; precisa de um type e um id.
 ```
-
-
-
-
 
 - `<footer></footer>`
 ```js
