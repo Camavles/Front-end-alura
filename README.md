@@ -8,10 +8,8 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 <p align="justify">
 
 ### HTML
-<p align="justify">
-"Todo documento HTML possui marcadores, conhecidos e chamados como tags, que são palavras inseridas entre os parênteses angulares (< e >), esses marcadores são os comandos de formatação da linguagem. Um elemento é formado por um nome de marcador (tag), atributos, valores e filhos."
 
-- TAGS Estruturais:
+#### TAGS Estruturais:
 
 - `<!DOCTYPE html>`
 ```js
@@ -40,7 +38,7 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 // href: arquivo de referência ou arquivo para qual será o direcionamento assim que clicar na página
 ```
 
-- TAGS de Conteúdo:
+#### TAGS de Conteúdo:
 
 - `<body></body>`
 ```js
@@ -85,7 +83,7 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 // É uma  âncora → essa âncora permite que eu consiga linkar páginas umas com as outras.
 ```
 
-- Outras TAGS:
+#### Outras TAGS:
 
 
 - `<main></main>`
@@ -107,6 +105,25 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 ```js
 // Parágrafo.
 ```
+
+- `<form></form>`
+```js
+// Usado para criar formulários
+```
+
+- `<label></label>`
+```js
+// É usado como uma etiqueta para o meu input. É aquele texto que informa para o que serve aquele campo de entrada(input)
+```
+
+- `<input></input>`
+```js
+// Informa qual informação será enviada pelo meu formulário; precisa de um type e um id.
+```
+
+
+
+
 
 - `<footer></footer>`
 ```js
