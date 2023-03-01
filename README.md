@@ -65,6 +65,10 @@ Este respositório tem como objetivo reunir meus estudos sobre front-end, princi
 // Título principal
 ```
 
+- `<nav></nav>`
+```js
+// Utilizado para marcar a navegação
+```
 
 - `<ul></ul>`
 ```js
@@ -167,12 +171,92 @@ tfoot → representa o rodapé da tabela.
 */
 ```
 
-
 - `<footer></footer>`
 ```js
 // Rodapé.
 ```
 
 
-               
+### CSS
+
+#### FORMAS DE MARCAR UM ELEMENTO
+
+
+- `De maneira direta`
+```js
+/* Quando quero selecionar um elemento para aplicar um estilo, eu posso marcálo diretamene pela tag: 
+body {
+    
+}
+
+E neste caso eu aplico todo o estilo que eu colocar dentro das chave spara todos os elementos dentron do body.
+
+*/
+```        
+
+- `Classe`
+```js
+/* Utilizando a classe, eu primeiro marco o meu elemento no HTML e depois utilizo .nomedaclase{}:
+
+.nomeclasse {
+
+}
+E aplico o estilo que eu desejo
+
+*/
+```  
+
+- `Id`
+```js
+/* Utilizando o id, primeiro marco o meu elemento no HTML e depois utilizo #nomeid{}:
+
+#nomdeid {
+
+}
+E aplico o estilo que eu desejo
+
+*/
+```
+
+#### POSSÍVEIS ESTILOS E MEDIÇÕES
+
+- `Estilos mais utilizados neste projeto`
+```js
+/* 
+font-size(tamanhodafonte) → tamanho da fonte em px;
+
+font-weight(pesodafonte) → negrito;
+
+font-family(famíliadafonte) → utilizei neste caso uma fonte extraída do Google Fonts, juntamente com o link HTML:  
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> | font-family: 'Montserrat', sans-serif;
+
+font-style(estilodefont) → colocar estilo na fonte: italic;
+
+text-align(alinhamentodetexto) → alinhamento no centro, para cima, para baixo, direita, esquerda;
+
+text-decoration(decoraçãodetexto) → formatação de sublinhado (underline, overline , line-through ou blink);
+
+text-transform(transformaçãodotexto) → utilizado para transformar o texto assim que a página carregar: uppercase;
+
+:hover → Possibilita uma transformação no comportamento do elemento assim que o mouse estiver por cima do elemento;
+
+width(comprimento) → definir o comprimento;
+
+margin(margem) → margem externa;
+
+padding(margem) → margem interna;
+
+display(disposição) → disposição do elemento quanto ao espaço ocupado (inline, inline-block, block);
+
+float(flutuação) → Desprendimento do elemento quanto ao fundo: left;
+
+line-height(linhaaltura) → espaçamento entre uma linha e outra: (1.5em/ 1.5 em relação ao padrão);
+
+border(borda) → borda (tamanho, textura e cor);
+
+border-radius → arredondamento de borda: 10px;
+
+*/
+```
+
 
